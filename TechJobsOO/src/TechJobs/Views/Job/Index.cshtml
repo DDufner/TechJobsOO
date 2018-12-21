@@ -1,0 +1,33 @@
+﻿@model TechJobs.Models.Job
+
+
+@{
+    // TODO #2.1- declare the ViewModel (outside of this @{ } block)
+}
+<h1>Job Listing Information</h1>
+
+    <table class="job-listing">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th>Employer</th>
+                <td>@Model.Employer</td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>@Model.Location</td>
+            </tr>
+            <tr>
+                <th>Skill</th>
+                <td>@Model.CoreCompetency</td>
+            </tr>
+            <tr>
+                <th>Position Type</th>
+                <td>@Model.PositionType</td>
+            </tr>
+        </tbody>
+    </table>
+
